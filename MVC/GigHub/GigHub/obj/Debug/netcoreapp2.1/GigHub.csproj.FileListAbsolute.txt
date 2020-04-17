@@ -1,0 +1,72 @@
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.deps.json
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.runtimeconfig.json
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.runtimeconfig.dev.json
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.dll
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.pdb
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.Views.dll
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.Views.pdb
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.csprojAssemblyReference.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.RazorAssemblyInfo.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.RazorAssemblyInfo.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.AssemblyInfoInputs.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.AssemblyInfo.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.TagHelpers.input.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.TagHelpers.output.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.RazorCoreGenerate.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.RazorTargetAssemblyInfo.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.RazorTargetAssemblyInfo.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.Views.pdb
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.dll
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.pdb
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.csproj.CopyComplete
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Gigs\Create.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.deps.json
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.runtimeconfig.json
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.runtimeconfig.dev.json
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.dll
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.pdb
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.Views.dll
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\bin\Debug\netcoreapp2.1\GigHub.Views.pdb
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.csprojAssemblyReference.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.RazorAssemblyInfo.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.RazorAssemblyInfo.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.AssemblyInfoInputs.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.AssemblyInfo.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.TagHelpers.input.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.TagHelpers.output.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.RazorCoreGenerate.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Gigs\Create.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.RazorTargetAssemblyInfo.cache
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.RazorTargetAssemblyInfo.cs
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.Views.pdb
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.dll
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.pdb
+C:\Users\Dawid\Documents\GIT\ASP .NET Core Learning\MVC\GigHub\GigHub\obj\Debug\netcoreapp2.1\GigHub.csproj.CopyComplete

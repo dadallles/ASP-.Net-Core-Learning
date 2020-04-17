@@ -5,6 +5,8 @@ using GigHub.ViewModels;
 using GigHub.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using System;
+using System.Globalization;
 
 namespace GigHub.Controllers
 {
@@ -22,7 +24,9 @@ namespace GigHub.Controllers
         {
             var viewModel = new GigFormViewModel
             {
-                Genres = _context.Genres.ToList()
+                Genres = _context.Genres.ToList(),
+                Date = DateTime.Today.AddDays(1).ToString("d/MM/yyyy"),
+                Time = DateTime.Now.AddMinutes(1).ToString("HH:mm")
             };
 
             return View(viewModel);

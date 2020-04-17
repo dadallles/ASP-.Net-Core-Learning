@@ -72,3 +72,8 @@ h6,
     border-radius: 10px;
 }
 
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
+

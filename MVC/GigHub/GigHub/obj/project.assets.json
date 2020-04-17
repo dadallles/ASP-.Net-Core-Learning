@@ -12643,11 +12643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dawid\\Documents\\GIT\\ASP .NET Core Learning\\MVC\\GigHub\\GigHub\\GigHub.csproj",
+      "projectUniqueName": "C:\\Users\\Dawid\\Documents\\GIT\\ASP-.Net-Core-Learning\\MVC\\GigHub\\GigHub\\GigHub.csproj",
       "projectName": "GigHub",
-      "projectPath": "C:\\Users\\Dawid\\Documents\\GIT\\ASP .NET Core Learning\\MVC\\GigHub\\GigHub\\GigHub.csproj",
+      "projectPath": "C:\\Users\\Dawid\\Documents\\GIT\\ASP-.Net-Core-Learning\\MVC\\GigHub\\GigHub\\GigHub.csproj",
       "packagesPath": "C:\\Users\\Dawid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dawid\\Documents\\GIT\\ASP .NET Core Learning\\MVC\\GigHub\\GigHub\\obj\\",
+      "outputPath": "C:\\Users\\Dawid\\Documents\\GIT\\ASP-.Net-Core-Learning\\MVC\\GigHub\\GigHub\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using GigHub.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
+ 
 namespace GigHub
 {
     public class Startup

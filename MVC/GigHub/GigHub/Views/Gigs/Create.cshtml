@@ -4,7 +4,6 @@
     ViewData["Title"] = "Create";
 }
 
-
 <h2>Add a Gig</h2>
 
 @using (Html.BeginForm("Create", "Gigs"))
@@ -18,12 +17,12 @@
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Date)
-        @Html.TextBoxFor(m => m.Date, new { @class = "form-control form_Gigs" })
+        @Html.TextBoxFor(m => m.Date, new { @class = "form-control form_Gigs", placeholder = ViewData["Date"] })
         @Html.ValidationMessageFor(m => m.Venue)
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Time)
-        @Html.TextBoxFor(m => m.Time, new { @class = "form-control form_Gigs" })
+        @Html.TextBoxFor(m => m.Time, new { @class = "form-control form_Gigs", placeholder = ViewData["Time"] })
         @Html.ValidationMessageFor(m => m.Venue)
     </div>
     <div class="form-group">

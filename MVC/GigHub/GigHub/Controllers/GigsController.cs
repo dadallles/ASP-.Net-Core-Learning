@@ -24,10 +24,11 @@ namespace GigHub.Controllers
         {
             var viewModel = new GigFormViewModel
             {
-                Genres = _context.Genres.ToList(),
-                Date = DateTime.Today.AddDays(1).ToString("d/MM/yyyy"),
-                Time = DateTime.Now.AddMinutes(1).ToString("HH:mm")
+                Genres = _context.Genres.ToList()
             };
+
+            ViewData["Date"] = DateTime.Today.AddDays(1).ToString("d/MM/yyyy");
+            ViewData["Time"] = DateTime.Now.AddMinutes(1).ToString("HH:mm");
 
             return View(viewModel);
         }

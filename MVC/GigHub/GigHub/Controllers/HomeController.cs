@@ -5,14 +5,29 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using GigHub.Models;
+using GigHub.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace GigHub.Controllers
 {
     public class HomeController : Controller
     {
+        private ApplicationDbContext _context;
+        
+        public HomeController()
+        {
+            _context = new ApplicationDbContext();
+        }
+
         public IActionResult Index()
         {
-            return View();
+            var upcomingGigs = _context.Gigs
+                .Include(g => g.Artist)
+                .Include(g => g.Genre)
+                .Where(g => g.DateTime > DateTime.Now)
+                .OrderBy(g => g.DateTime);
+
+            return View(upcomingGigs);
         }
 
         public IActionResult About()

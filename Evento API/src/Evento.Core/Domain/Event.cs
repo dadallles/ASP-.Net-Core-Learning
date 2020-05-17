@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Evento.Core.Domain
@@ -22,6 +23,10 @@ namespace Evento.Core.Domain
 
         public IEnumerable<Ticket> Tickets => _tickets;
 
+        public IEnumerable<Ticket> PurchasedTickets => _tickets.Where(x => x.Purchased);
+
+        public IEnumerable<Ticket> AvailableTickets => _tickets.Where(x => !x.Purchased);
+
 
         protected Event()
         {
@@ -31,11 +36,31 @@ namespace Evento.Core.Domain
         public Event(Guid id, string name, string description, DateTime startDate, DateTime endDate)
         {
             Id = id;
-            Name = name;
-            Description = description;
+            SetName(name);
+            SetDescription(description);
             StartDate = startDate;
             EndDate = endDate;
             CreatedAt = DateTime.UtcNow;
+            UpdateAt = DateTime.UtcNow;
+        }
+
+        public void SetName(string name)
+        {
+            if(string.IsNullOrWhiteSpace(name))
+            {
+                throw new Exception($"Nazwa nie moze byc pusta");
+            }
+            Name = name;
+            UpdateAt = DateTime.UtcNow;
+        }
+
+        public void SetDescription(string description)
+        {
+            if (string.IsNullOrWhiteSpace(description))
+            {
+                throw new Exception($"Opis nie moze byc pusty");
+            }
+            Description = description;
             UpdateAt = DateTime.UtcNow;
         }
 

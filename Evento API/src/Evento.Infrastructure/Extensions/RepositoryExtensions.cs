@@ -2,6 +2,7 @@
 using Evento.Core.Repositories;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -40,6 +41,18 @@ namespace Evento.Infrastructure.Extensions
             }
 
             return user;
+        }
+
+        public static async Task<Ticket> GetTicketOrFailAsync(this IEventRepository repository, Guid eventId, Guid ticketId)
+        {
+            var @event = await repository.GetOrFailAsync(eventId);
+            var ticket = @event.Tickets.SingleOrDefault(x => x.Id == ticketId);
+            if (ticket == null)
+            {
+                throw new Exception($"Bilet o id: '{ticketId}' nie znaleziono dla wydarzenia: '{@event.Name}'");
+            }
+
+            return ticket;
         }
 
     }

@@ -32,5 +32,28 @@ namespace Evento.Core.Domain
             Seating = seating;
             Price = price;
         }
+
+        public void Purchase(User user)
+        {
+            if(Purchased)
+            {
+                throw new Exception($"Bilet zakupiony przez: '{Username}' w dniu: '{PurchasedAt}'.");
+            }
+            UserId = user.Id;
+            Username = user.Name;
+            PurchasedAt = DateTime.UtcNow;
+        }
+
+        public void Cancel()
+        {
+            if (Purchased)
+            {
+                throw new Exception($"Bilet nie byl zakupiony.");
+            }
+            UserId = null;
+            Username = null;
+            PurchasedAt = null;
+        }
+
     }
 }

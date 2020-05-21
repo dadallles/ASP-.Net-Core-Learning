@@ -73,5 +73,35 @@ namespace Evento.Core.Domain
                 _tickets.Add(new Ticket(this, seating, price));
             }
         }
+
+        public void PurchaseTickets(User user, int amount)
+        {
+            if(AvailableTickets.Count() < amount)
+            {
+                throw new Exception($"Nie ma dostepnych ({amount}) sztuk biletow!");
+            }
+            var tickets = AvailableTickets.Take(amount);
+            foreach(var ticket in tickets)
+            {
+                ticket.Purchase(user);
+            }
+        }
+
+        public void CancelPurchasedTickets(User user, int amount)
+        {
+            var tickets = GetTicketsPurchasedByUser(user);
+            if(tickets.Count() < amount)
+            {
+                throw new Exception($"Nie wystarczajaca ilosc zakupionych biletow (({amount})) przez '{user.Name}'.");
+            }
+            foreach (var ticket in tickets.Take(amount))
+            {
+                ticket.Cancel();
+            }
+        }
+
+        public IEnumerable<Ticket> GetTicketsPurchasedByUser(User user)
+            => PurchasedTickets.Where(x => x.UserId == user.Id);
+
     }
 }

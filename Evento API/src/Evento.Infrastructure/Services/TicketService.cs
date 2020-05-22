@@ -7,6 +7,8 @@ using AutoMapper;
 using Evento.Core.Repositories;
 using Evento.Infrastructure.DTO;
 using Evento.Infrastructure.Extensions;
+using Microsoft.Extensions.Logging;
+using NLog;
 
 namespace Evento.Infrastructure.Services
 {
@@ -15,6 +17,7 @@ namespace Evento.Infrastructure.Services
         private IUserRepository _userRepository;
         private IEventRepository _eventRepository;
         private IMapper _mapper;
+        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
         public TicketService(IUserRepository userRepository, IEventRepository eventRepository, IMapper mapper)
         {
@@ -25,6 +28,7 @@ namespace Evento.Infrastructure.Services
 
         public async Task<IEnumerable<TicketDetailsDto>> GetForUserAsync(Guid userId)
         {
+            Logger.Info("Catch ticket fo user");
             var user = await _userRepository.GetOrFailAsync(userId);
             var events = await _eventRepository.BrowseAsync();
             var alltickets = new List<TicketDetailsDto>();
@@ -45,6 +49,7 @@ namespace Evento.Infrastructure.Services
 
         public async Task<TicketDto> GetAsync(Guid userId, Guid eventId, Guid ticketId)
         {
+            Logger.Info("Catch ticket");
             var user = await _userRepository.GetOrFailAsync(userId);
             var ticket = await _eventRepository.GetTicketOrFailAsync(eventId, ticketId);
 
@@ -53,6 +58,7 @@ namespace Evento.Infrastructure.Services
 
         public async Task PurchaseAsync(Guid userId, Guid eventId, int amount)
         {
+            Logger.Info("Purchase tickets");
             var user = await _userRepository.GetOrFailAsync(userId);
             var @event = await _eventRepository.GetOrFailAsync(eventId);
             @event.PurchaseTickets(user, amount);
@@ -61,6 +67,7 @@ namespace Evento.Infrastructure.Services
 
         public async Task CancelAsync(Guid userId, Guid eventId, int amount)
         {
+            Logger.Info("Cancel tickets");
             var user = await _userRepository.GetOrFailAsync(userId);
             var @event = await _eventRepository.GetOrFailAsync(eventId);
             @event.CancelPurchasedTickets(user, amount);

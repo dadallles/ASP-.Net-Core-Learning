@@ -13,5 +13,6 @@ namespace Evento.Core.Domain
         {
             Id = Guid.NewGuid();
         }
+
     }
 }
